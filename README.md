@@ -1,10 +1,13 @@
 # keytic
-Keytic is a VT terminal keypress tic sound theme for Bucklespring.
+Keytic is a VT terminal keypress tic sound theme for Bucklespring, a nostalgia keyboard sound theme.
+Check Bucklespring: https://github.com/zevv/bucklespring
 
-## Install
+## Installing keyting
 
-Copy to /usr/share/buckle/wav/keytic
+Copy <file>keytic/</file> to <file>/usr/share/buckle/wav/keytic</file>
 
-Start with:
+Start Bucklespring with the **-p** option for an alternative sound path:
 
-/usr/games/buckle -g 80 -s 100 -p /usr/share/buckle/wav/keytic/
+<code>
+/usr/games/buckle -p /usr/share/buckle/wav/keytic/
+</code>
