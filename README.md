@@ -8,7 +8,7 @@ Please check Bucklespring, a nostalgia IBM Model M keyboard sound theme for your
 Keytic does not replaces the original Blinkenspring sounds. It adds a new sound theme with a DEC VT terminal keypress tic.
 To install, simply copy the <file>keytic/</file> folder in the Bucklespring wav file (i.e. <file>/usr/share/buckle/wav/</file>)
 
-##Using Keytic 
+## Using Keytic 
 
 Start Bucklespring with the **-p** option directing to the alternative keytic sound theme path:
 
