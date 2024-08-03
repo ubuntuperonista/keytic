@@ -1,8 +1,13 @@
-cd /keytic
+#!/usr/bin/bash
+## Replaces the keytic WAV file and the silence WAV file (if needed) 
+## for the keytic sound theme for Bucklespring.
+## Original: https://github.com/zevv/bucklespring/wav
 
+# erase original WAV files:
 rm ??-0.wav
 rm ??-1.wav
 
+# Copy the same keytic.wav into all the keyboard keys sounds:
 cp silencio.wav 0a-0.wav
 cp keytic.wav 0a-1.wav
 
